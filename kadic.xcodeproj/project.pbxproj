@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4887D592288D5320026ABBF /* kadicView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4887D582288D5320026ABBF /* kadicView.h */; };
+		A4887D5B2288D5320026ABBF /* kadicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4887D5A2288D5320026ABBF /* kadicView.m */; };
+		A4887D80228967D70026ABBF /* night-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A4887D7D228967D70026ABBF /* night-bg.png */; };
+		A4887D81228967D70026ABBF /* day-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A4887D7E228967D70026ABBF /* day-bg.png */; };
+		A4887D82228967D70026ABBF /* evening-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A4887D7F228967D70026ABBF /* evening-bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4887D552288D5320026ABBF /* kadic.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kadic.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4887D582288D5320026ABBF /* kadicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kadicView.h; path = kadic/kadicView.h; sourceTree = SOURCE_ROOT; };
+		A4887D5A2288D5320026ABBF /* kadicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kadicView.m; sourceTree = "<group>"; wrapsLines = 0; };
+		A4887D5C2288D5320026ABBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4887D7D228967D70026ABBF /* night-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night-bg.png"; sourceTree = "<group>"; };
+		A4887D7E228967D70026ABBF /* day-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day-bg.png"; sourceTree = "<group>"; };
+		A4887D7F228967D70026ABBF /* evening-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "evening-bg.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4887D522288D5320026ABBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4887D4B2288D5320026ABBF = {
+			isa = PBXGroup;
+			children = (
+				A4887D572288D5320026ABBF /* kadic */,
+				A4887D562288D5320026ABBF /* Products */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 1;
+		};
+		A4887D562288D5320026ABBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4887D552288D5320026ABBF /* kadic.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4887D572288D5320026ABBF /* kadic */ = {
+			isa = PBXGroup;
+			children = (
+				A4887D7E228967D70026ABBF /* day-bg.png */,
+				A4887D7F228967D70026ABBF /* evening-bg.png */,
+				A4887D7D228967D70026ABBF /* night-bg.png */,
+				A4887D582288D5320026ABBF /* kadicView.h */,
+				A4887D5A2288D5320026ABBF /* kadicView.m */,
+				A4887D5C2288D5320026ABBF /* Info.plist */,
+			);
+			path = kadic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4887D502288D5320026ABBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4887D592288D5320026ABBF /* kadicView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4887D542288D5320026ABBF /* kadic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4887D5F2288D5320026ABBF /* Build configuration list for PBXNativeTarget "kadic" */;
+			buildPhases = (
+				A4887D502288D5320026ABBF /* Headers */,
+				A4887D512288D5320026ABBF /* Sources */,
+				A4887D522288D5320026ABBF /* Frameworks */,
+				A4887D712289163C0026ABBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kadic;
+			productName = kadic;
+			productReference = A4887D552288D5320026ABBF /* kadic.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4887D4C2288D5320026ABBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Carthage;
+				TargetAttributes = {
+					A4887D542288D5320026ABBF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A4887D4F2288D5320026ABBF /* Build configuration list for PBXProject "kadic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4887D4B2288D5320026ABBF;
+			productRefGroup = A4887D562288D5320026ABBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4887D542288D5320026ABBF /* kadic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4887D712289163C0026ABBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4887D80228967D70026ABBF /* night-bg.png in Resources */,
+				A4887D82228967D70026ABBF /* evening-bg.png in Resources */,
+				A4887D81228967D70026ABBF /* day-bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4887D512288D5320026ABBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4887D5B2288D5320026ABBF /* kadicView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4887D5D2288D5320026ABBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4887D5E2288D5320026ABBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4887D602288D5320026ABBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDTFS2B9ZM;
+				INFOPLIST_FILE = kadic/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = nihil.carthage.kadic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		A4887D612288D5320026ABBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDTFS2B9ZM;
+				INFOPLIST_FILE = kadic/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = nihil.carthage.kadic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4887D4F2288D5320026ABBF /* Build configuration list for PBXProject "kadic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4887D5D2288D5320026ABBF /* Debug */,
+				A4887D5E2288D5320026ABBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4887D5F2288D5320026ABBF /* Build configuration list for PBXNativeTarget "kadic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4887D602288D5320026ABBF /* Debug */,
+				A4887D612288D5320026ABBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4887D4C2288D5320026ABBF /* Project object */;
+}
