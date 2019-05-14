@@ -1,0 +1,1 @@
+This is an OSX Screensaver featuring the Kadic Academy--a fictional boarding school attended by the heroes of Code Lyoko. The screensaver follows a day/night cycle every hour, fading into day/evening/night shots of the school.
